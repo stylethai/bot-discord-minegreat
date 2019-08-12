@@ -1,13 +1,20 @@
 {
-  "name": "Test",
-  "description": "Test",
-  "version": "0.0.0",
+  "name": "MineGreat-Bot",
+  "version": "1.0.0",
+  "description": "Minecraft Discord Bot by FaRosz",
   "main": "bot.js",
-  "scripts": {
-    "start": "node bot.js"
-  },
   "dependencies": {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
-  }
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "FaRosz",
+  "license": "MIT",
+  "homepage": ""
 }
