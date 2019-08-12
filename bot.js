@@ -4,7 +4,7 @@ const { prefix, token } = require('./config.json');
 
 const bot = new Discord.Client();
 
-bot.login(token);
+bot.login(process.env.BOT_TOKEN);
 
 bot.on('ready', () => {
   console.log(`Logged in as ${bot.user.tag}is online!`);
